@@ -3,7 +3,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T12:43:46.5608194+02:00"
+    created: "2023-04-24T14:02:24.561403594+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -13,7 +13,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 11.x.x
     description: A Helm chart for Kubernetes
-    digest: 3d2c67296fe1cd867dcb60e6ce66b2dfbc07ba0f50ae68b37f72772719a3ce42
+    digest: bd68be32093c9d67a9afb70f1f81c7db38b99ca6c7446a11e1de4bf1117ba759
     name: kimai2
     type: application
     urls:
@@ -21,7 +21,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T12:43:46.555862144+02:00"
+    created: "2023-04-24T14:02:24.557638186+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T12:43:46.550080935+02:00"
+    created: "2023-04-24T14:02:24.552998713+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -55,4 +55,4 @@ entries:
     urls:
     - kimai2-2.0.4.tgz
     version: 2.0.4
-generated: "2023-04-24T12:43:46.544738647+02:00"
+generated: "2023-04-24T14:02:24.549028137+02:00"
