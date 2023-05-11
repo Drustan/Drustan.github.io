@@ -3,7 +3,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T14:02:24.561403594+02:00"
+    created: "2023-05-11T11:20:57.843568384+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -21,7 +21,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T14:02:24.557638186+02:00"
+    created: "2023-05-11T11:20:57.837967748+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-04-24T14:02:24.552998713+02:00"
+    created: "2023-05-11T11:20:57.832113737+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -55,4 +55,38 @@ entries:
     urls:
     - kimai2-2.0.4.tgz
     version: 2.0.4
-generated: "2023-04-24T14:02:24.549028137+02:00"
+  onetimesecret:
+  - apiVersion: v2
+    appVersion: 0.11-rc.1
+    created: "2023-05-11T11:20:57.844967955+02:00"
+    dependencies:
+    - name: common
+      repository: https://charts.indiegogo.com/
+      tags:
+      - indiegogo-common
+      version: 0.1.2
+    - condition: redis.chartEnabled
+      name: redis
+      repository: https://groundhog2k.github.io/helm-charts/
+      version: 0.4.6
+    description: A Helm chart for One-Time Secret server
+    digest: 5e48d3291ded7c04ea360db7ee645ab6a74286e0e29cd3f5029f7f8fa7cefda8
+    home: https://github.com/indiegogo/onetimesecret
+    icon: https://github.com/indiegogo/onetimesecret/blob/main/public/web/img/logo-57.png
+    keywords:
+    - onetimesecret
+    - ots
+    - onetimepassword
+    - otp
+    maintainers:
+    - email: devops@indiegogo.com
+      name: DevOps
+    name: onetimesecret
+    sources:
+    - https://github.com/indiegogo/onetimesecret
+    - https://github.com/onetimesecret/onetimesecret
+    type: application
+    urls:
+    - onetimesecret-0.12.2.tgz
+    version: 0.12.2
+generated: "2023-05-11T11:20:57.826317766+02:00"
