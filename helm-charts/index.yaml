@@ -3,7 +3,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-12T14:42:25.561094164+02:00"
+    created: "2023-05-12T14:49:46.257072083+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -21,7 +21,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-12T14:42:25.555431404+02:00"
+    created: "2023-05-12T14:49:46.251473018+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-12T14:42:25.550485691+02:00"
+    created: "2023-05-12T14:49:46.247144417+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -58,7 +58,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-05-12T14:42:25.562982686+02:00"
+    created: "2023-05-12T14:49:46.258989297+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -68,7 +68,7 @@ entries:
       repository: https://groundhog2k.github.io/helm-charts/
       version: 0.4.6
     description: A Helm chart for One-Time Secret server
-    digest: ac59aa3a38c6814a5e2674f5ee945fce90fd00d3bd156cbeb70feadd603005d8
+    digest: 0dc2b7e7ae6c53f435784725834a994e4172ea405c033dc1e137b02a9c309fc7
     home: https://github.com/indiegogo/onetimesecret
     icon: https://github.com/indiegogo/onetimesecret/blob/main/public/web/img/logo-57.png
     keywords:
@@ -87,4 +87,4 @@ entries:
     urls:
     - onetimesecret-0.12.2.tgz
     version: 0.12.2
-generated: "2023-05-12T14:42:25.544574534+02:00"
+generated: "2023-05-12T14:49:46.243218941+02:00"
