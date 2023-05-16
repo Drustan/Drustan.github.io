@@ -1,9 +1,28 @@
 apiVersion: v1
 entries:
+  cryptgeon:
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2023-05-16T12:01:14.779814814+02:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.x.x
+    description: A Helm chart to install cryptgeon
+    digest: 4fdf4812330bafaecf618b922124f5db4276e289a40fb52bfc66ea9d29c93d29
+    maintainers:
+    - name: Tristan Pilat
+      url: https://github.com/drustan
+    name: cryptgeon
+    type: application
+    urls:
+    - cryptgeon-2.2.0.tgz
+    version: 2.2.0
   kimai2:
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-15T17:52:48.577917434+02:00"
+    created: "2023-05-16T12:01:14.795495315+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -21,7 +40,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-15T17:52:48.574114505+02:00"
+    created: "2023-05-16T12:01:14.789824372+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +58,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-15T17:52:48.569481635+02:00"
+    created: "2023-05-16T12:01:14.785066028+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -58,7 +77,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-05-15T17:52:48.57992157+02:00"
+    created: "2023-05-16T12:01:14.797454902+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -87,4 +106,4 @@ entries:
     urls:
     - onetimesecret-0.12.2.tgz
     version: 0.12.2
-generated: "2023-05-15T17:52:48.565362155+02:00"
+generated: "2023-05-16T12:01:14.775448139+02:00"
