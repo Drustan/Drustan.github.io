@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-06-21T17:57:12.546259638+02:00"
+    created: "2023-06-21T18:02:54.699942609+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-06-21T17:57:12.569513432+02:00"
+    created: "2023-06-21T18:02:54.721073968+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -31,7 +31,7 @@ entries:
       - bitnami-common
       version: 2.x.x
     description: A Helm chart for Kubernetes
-    digest: 939915d815db85ca7fcb338512c2807b4e165fddf46e83bbe5f84be3a2b9cc94
+    digest: 57c69c466738108f2f4d6e1888fe30ce600887b5d70826f057228a819a0c4405
     name: kimai2
     type: application
     urls:
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T17:57:12.563160153+02:00"
+    created: "2023-06-21T18:02:54.714755796+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T17:57:12.557986236+02:00"
+    created: "2023-06-21T18:02:54.709908238+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T17:57:12.552024453+02:00"
+    created: "2023-06-21T18:02:54.704076646+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-06-21T17:57:12.571528503+02:00"
+    created: "2023-06-21T18:02:54.723004529+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,4 +123,4 @@ entries:
     urls:
     - onetimesecret-0.12.2.tgz
     version: 0.12.2
-generated: "2023-06-21T17:57:12.53960655+02:00"
+generated: "2023-06-21T18:02:54.695483125+02:00"
