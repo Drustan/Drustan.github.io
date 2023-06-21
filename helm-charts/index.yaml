@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-05-17T10:53:24.326198499+02:00"
+    created: "2023-06-21T17:31:22.793855594+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -18,8 +18,28 @@ entries:
     version: 2.2.0
   kimai2:
   - apiVersion: v2
+    appVersion: apache-2.0.23-prod
+    created: "2023-06-21T17:31:22.814049907+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: abaf44b70345b32d1abf1e55e35bc5780ca77009b340d96735db6ac02b45463e
+    name: kimai2
+    type: application
+    urls:
+    - kimai2-3.0.6.tgz
+    version: 3.0.6
+  - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-17T10:53:24.341586443+02:00"
+    created: "2023-06-21T17:31:22.808805182+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-17T10:53:24.336096414+02:00"
+    created: "2023-06-21T17:31:22.803248654+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -55,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-05-17T10:53:24.331086388+02:00"
+    created: "2023-06-21T17:31:22.798748058+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -74,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-05-17T10:53:24.343498529+02:00"
+    created: "2023-06-21T17:31:22.816729115+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,4 +123,4 @@ entries:
     urls:
     - onetimesecret-0.12.2.tgz
     version: 0.12.2
-generated: "2023-05-17T10:53:24.321091564+02:00"
+generated: "2023-06-21T17:31:22.789202113+02:00"
