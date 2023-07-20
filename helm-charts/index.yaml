@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-06-21T18:02:54.699942609+02:00"
+    created: "2023-07-20T18:19:30.998603064+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-06-21T18:02:54.721073968+02:00"
+    created: "2023-07-20T18:19:31.021911438+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T18:02:54.714755796+02:00"
+    created: "2023-07-20T18:19:31.015473556+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T18:02:54.709908238+02:00"
+    created: "2023-07-20T18:19:31.009675465+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-06-21T18:02:54.704076646+02:00"
+    created: "2023-07-20T18:19:31.004511555+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-06-21T18:02:54.723004529+02:00"
+    created: "2023-07-20T18:19:31.024138423+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,4 +123,20 @@ entries:
     urls:
     - onetimesecret-0.12.2.tgz
     version: 0.12.2
-generated: "2023-06-21T18:02:54.695483125+02:00"
+  robusta:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-07-20T18:19:31.04789265+02:00"
+    dependencies:
+    - condition: enablePrometheusStack
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 43.2.1
+    description: Robusta Helm chart for Kubernetes
+    digest: 0453e4b92ca81d9134cbf022d178c3165621cb789885db53f7609c5c7810a74b
+    name: robusta
+    type: application
+    urls:
+    - robusta-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-07-20T18:19:30.992768501+02:00"
