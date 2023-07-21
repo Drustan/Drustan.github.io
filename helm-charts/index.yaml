@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-07-21T14:49:00.43833985+02:00"
+    created: "2023-07-21T15:02:24.619084791+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-07-21T14:49:00.461022393+02:00"
+    created: "2023-07-21T15:02:24.639709119+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-21T14:49:00.455258621+02:00"
+    created: "2023-07-21T15:02:24.634582962+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-21T14:49:00.449744806+02:00"
+    created: "2023-07-21T15:02:24.629350559+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-21T14:49:00.444854704+02:00"
+    created: "2023-07-21T15:02:24.624578604+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-07-21T14:49:00.463171689+02:00"
+    created: "2023-07-21T15:02:24.641524993+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -126,7 +126,7 @@ entries:
   robusta:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-21T14:49:00.488131934+02:00"
+    created: "2023-07-21T15:02:24.664690462+02:00"
     dependencies:
     - condition: enablePrometheusStack
       name: kube-prometheus-stack
@@ -142,9 +142,9 @@ entries:
   vault-secrets-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-21T14:49:00.489245144+02:00"
+    created: "2023-07-21T15:02:24.66576842+02:00"
     description: Official Vault Secrets Operator Chart
-    digest: cc43c380c337907f30e3450ac7001af97d65a8f0ac33c54ee58386bdd53ce799
+    digest: c2dd13eec6e3f98268b43c1ca894bc773b6bf787a702fd50187bb8892f364fb6
     kubeVersion: '>=1.22.0-0'
     name: vault-secrets-operator
     sources:
@@ -153,4 +153,4 @@ entries:
     urls:
     - vault-secrets-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-21T14:49:00.434195307+02:00"
+generated: "2023-07-21T15:02:24.61369232+02:00"
