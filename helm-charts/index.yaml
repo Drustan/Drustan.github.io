@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-07-20T18:19:30.998603064+02:00"
+    created: "2023-07-21T14:49:00.43833985+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-07-20T18:19:31.021911438+02:00"
+    created: "2023-07-21T14:49:00.461022393+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-20T18:19:31.015473556+02:00"
+    created: "2023-07-21T14:49:00.455258621+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-20T18:19:31.009675465+02:00"
+    created: "2023-07-21T14:49:00.449744806+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-20T18:19:31.004511555+02:00"
+    created: "2023-07-21T14:49:00.444854704+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-07-20T18:19:31.024138423+02:00"
+    created: "2023-07-21T14:49:00.463171689+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -126,7 +126,7 @@ entries:
   robusta:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-20T18:19:31.04789265+02:00"
+    created: "2023-07-21T14:49:00.488131934+02:00"
     dependencies:
     - condition: enablePrometheusStack
       name: kube-prometheus-stack
@@ -139,4 +139,18 @@ entries:
     urls:
     - robusta-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-20T18:19:30.992768501+02:00"
+  vault-secrets-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-07-21T14:49:00.489245144+02:00"
+    description: Official Vault Secrets Operator Chart
+    digest: cc43c380c337907f30e3450ac7001af97d65a8f0ac33c54ee58386bdd53ce799
+    kubeVersion: '>=1.22.0-0'
+    name: vault-secrets-operator
+    sources:
+    - https://github.com/hashicorp/vault-secrets-operator
+    type: application
+    urls:
+    - vault-secrets-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-21T14:49:00.434195307+02:00"
