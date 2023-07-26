@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-07-26T11:03:40.639616782+02:00"
+    created: "2023-07-26T11:23:23.677177053+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-07-26T11:03:40.659462725+02:00"
+    created: "2023-07-26T11:23:23.698076953+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-26T11:03:40.653528404+02:00"
+    created: "2023-07-26T11:23:23.69253352+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-26T11:03:40.648664092+02:00"
+    created: "2023-07-26T11:23:23.687336657+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-26T11:03:40.64378109+02:00"
+    created: "2023-07-26T11:23:23.682604627+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-07-26T11:03:40.661368382+02:00"
+    created: "2023-07-26T11:23:23.700421274+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -126,9 +126,15 @@ entries:
   pingvin-share:
   - apiVersion: v2
     appVersion: 0.17.0
-    created: "2023-07-26T11:03:40.661876136+02:00"
+    created: "2023-07-26T11:23:23.701517773+02:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
     description: A Helm chart to install Pingvin Share
-    digest: 557ce776c046540cf52c5b9ed9ee1408df51d34bba028a0452951c4bc2902386
+    digest: bc8dfb7f2457a1911685a6e410f93e2d10b23a90c16ee98da23fdca2b880101e
     name: pingvin-share
     type: application
     urls:
@@ -137,7 +143,7 @@ entries:
   robusta:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-26T11:03:40.686336849+02:00"
+    created: "2023-07-26T11:23:23.724953702+02:00"
     dependencies:
     - condition: enablePrometheusStack
       name: kube-prometheus-stack
@@ -153,7 +159,7 @@ entries:
   vault-secrets-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-26T11:03:40.687503298+02:00"
+    created: "2023-07-26T11:23:23.726309812+02:00"
     description: Official Vault Secrets Operator Chart
     digest: c2dd13eec6e3f98268b43c1ca894bc773b6bf787a702fd50187bb8892f364fb6
     kubeVersion: '>=1.22.0-0'
@@ -164,4 +170,4 @@ entries:
     urls:
     - vault-secrets-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-26T11:03:40.635578765+02:00"
+generated: "2023-07-26T11:23:23.671326375+02:00"
