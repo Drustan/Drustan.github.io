@@ -3,7 +3,7 @@ entries:
   cryptgeon:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2023-07-31T17:37:00.930050959+02:00"
+    created: "2023-07-31T18:15:47.870309281+02:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -19,7 +19,7 @@ entries:
   kimai2:
   - apiVersion: v2
     appVersion: apache-2.0.23-prod
-    created: "2023-07-31T17:37:00.946674638+02:00"
+    created: "2023-07-31T18:15:47.891733016+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -39,7 +39,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-31T17:37:00.941879583+02:00"
+    created: "2023-07-31T18:15:47.885950826+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -57,7 +57,7 @@ entries:
     version: 2.0.8
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-31T17:37:00.938274908+02:00"
+    created: "2023-07-31T18:15:47.880756633+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -75,7 +75,7 @@ entries:
     version: 2.0.7
   - apiVersion: v2
     appVersion: apache-1.30.11-prod
-    created: "2023-07-31T17:37:00.934571387+02:00"
+    created: "2023-07-31T18:15:47.875855675+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -94,7 +94,7 @@ entries:
   onetimesecret:
   - apiVersion: v2
     appVersion: 0.11-rc.1
-    created: "2023-07-31T17:37:00.9483068+02:00"
+    created: "2023-07-31T18:15:47.894560172+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -126,7 +126,7 @@ entries:
   pingvin-share:
   - apiVersion: v2
     appVersion: v0.17.0
-    created: "2023-07-31T17:37:00.949553224+02:00"
+    created: "2023-07-31T18:15:47.896115673+02:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -143,14 +143,14 @@ entries:
   robusta:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-07-31T17:37:00.97547011+02:00"
+    created: "2023-07-31T18:15:47.923154354+02:00"
     dependencies:
     - condition: enablePrometheusStack
       name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
       version: 47.2.0
     description: Robusta Helm chart for Kubernetes
-    digest: 5c21cc8237e8a80fb24aed44b5bd7b56022836a39a87cf7d9b2a0350bb0471d8
+    digest: ed207cb254409ba59315bbf2c977ad0b3f7e5259790eb056da5469c4e522f3d4
     name: robusta
     type: application
     urls:
@@ -159,7 +159,7 @@ entries:
   vault-secrets-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-31T17:37:00.976841563+02:00"
+    created: "2023-07-31T18:15:47.924669187+02:00"
     description: Official Vault Secrets Operator Chart
     digest: c2dd13eec6e3f98268b43c1ca894bc773b6bf787a702fd50187bb8892f364fb6
     kubeVersion: '>=1.22.0-0'
@@ -170,4 +170,4 @@ entries:
     urls:
     - vault-secrets-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-31T17:37:00.925681895+02:00"
+generated: "2023-07-31T18:15:47.864373374+02:00"
